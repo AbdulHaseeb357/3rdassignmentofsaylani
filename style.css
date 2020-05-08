@@ -1,0 +1,700 @@
+a{
+    color: #0f20ed;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+ /* SOCIAL LINK BAR */
+.lisocial{
+    display: inline-block;
+    position: relative;
+    left: 95px;
+    padding: 8px 10px 0 5px;
+    
+}
+.divcolor{
+    background-color: #316dc3;
+    height: 40px;
+    width: 100%;
+ 
+}
+.parainheaad{
+    position: relative;
+    top: -20px;
+    left: 450px;
+    color: white;
+}
+.buttonstyle{
+    position: relative;
+    top: -42px;
+    left: 1060px;
+    padding: 3px 2px 3px 2px;
+    color: #427900;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+}
+/* SOCIAL LINK BAR END */
+
+/* MENU BAR */
+.logo{
+    position: absolute;
+    top: 43px;
+}
+
+nav{
+    background-color: #f7f8fa;
+    height: 65px;
+    width: 100%;
+    z-index: 1;
+}
+
+label.logo{
+    line-height: 32px;
+    padding: 0px 90px;
+}
+
+.ul{
+    float: right;
+    margin-right: 70px;
+    margin-top: 22px;
+}
+.list{
+    display: inline-block;
+    line height: 32px;
+    margin : 0 5px;
+}
+
+a.active,a.hover{
+    color: white;
+    font-size: 17px;
+    padding: 7px 11px;
+    border-radius: 18px;
+}
+
+a.active{
+    background-color: #316dc3;
+    transition: .3s;
+}
+
+a.hover:hover{
+    transition: .3s;
+    color: white;
+    background-color: #316dc3;
+}
+
+a.hover{
+    color: black;
+}
+
+nav{
+    box-shadow: 0px 6px 8px grey; 
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: blue;
+    float: right;
+    line-height: 60px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/* MENU BAR END */
+
+.slideline{
+    background-color: #316dc3;
+    height: 30px;
+    margin-top: 10px;
+    width: 88%;
+}
+
+.colorofnews{
+    color: #01fb06;
+}
+
+.newsline{
+    padding: 5px;
+    color: white;
+}
+
+.arrow{
+    position: relative;
+    top: 50px;
+    left: 630px;
+}
+.parabgcolor{
+    background-color: #f7f8fa;
+    height: 835px;
+}
+.intro{
+    color: #316dc3;
+}
+.duction{
+    color: #427900;
+}
+.favicon{
+    margin-top: 8px;
+}
+.divider{
+    color: #427900;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+}
+.hide{
+    visibility: hidden;
+}
+.longpara{
+    line-height: 2em;
+    text-align: justify;
+    width: 85%;
+    font-size: 18px;
+}
+.patti{
+    background-color: #2755e9;
+    height: 20px;
+    margin-top: 110px;
+}
+
+.adoptionbox{
+    background-color: #2755e9;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+
+/* ADOPTION WALA BOX */
+.headingsize{
+    font-size: 50px;
+    color: white;
+}
+.ADPparacol{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.monthly{
+    font-size: 19px;
+    color: #01fb06;
+}
+.position1,.position2,.position3,.position4{
+   padding-top: 80px;
+
+}
+/* ADOPTION WALA BOX END */
+
+.boxbgcolor{
+    background-color: #f7f8fa;
+    height: 650px;
+}
+
+
+/* BOXES */
+.boxhead{
+    font-size: 40px;
+    color: #316dc3;
+}
+.aredoing{
+    color: #427900;
+}
+.boxes1-3{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.boxes4-6{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.box1{
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    box-shadow: 0px 0px 30px #b1b1b1;
+
+}
+.box2{
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    box-shadow: 0px 0px 30px #b1b1b1;
+
+}
+.box3{
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    box-shadow: 0px 0px 30px #b1b1b1;
+
+}
+.box4{
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    box-shadow: 0px 0px 30px #b1b1b1;
+
+}
+.box5{
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    box-shadow: 0px 0px 30px #b1b1b1;
+
+}
+.box6{
+    background-color: white;
+    height: 190px;
+    width: 380px;
+    box-shadow: 0px 0px 30px #b1b1b1;
+    /* float: left;
+    margin: 30px 0 0 52px; */
+}
+.onsad{
+    font-size: 25px;
+    color: #316dc3;
+}
+/* BOXES END */
+
+
+
+/* IMAGEGALLERY WALA SECTION */
+.IMGGALDIV{
+    background-color: white ;
+    height: 850px;
+}
+.h1ofhepa{
+    margin: 0 0 0 55px;
+    color: #316dc3;
+}
+.hepatitisbox{
+    background-color: #f7f8fa;
+    height: 55px;
+    width: 350px;
+    margin: 30px 0 0 52px;
+    float: left;
+}
+.imghepa{
+    margin: 12px;
+    float: left;
+}
+.headhepa{
+    color: #316dc3;
+    float: left;
+    margin: 17px 0 0 25px;
+    font-weight: normal;
+}
+.housingbox{
+    background-color: #f7f8fa;
+    height: 55px;
+    width: 350px;
+    float: left;
+    margin:30px 0 0 32px ;
+}
+.imghouse{
+    margin: 12px;
+    float: left;
+}
+.headhouse{
+    color: #316dc3;
+    float: left;
+    margin: 17px 0 0 25px;
+    font-weight: normal;
+}
+.itbox{
+    background-color: #f7f8fa;
+    height: 55px;
+    width: 350px;
+    margin: 105px 0 0 52px;
+}
+.imgit{
+    margin: 12px;
+    float: left;
+}
+.headit{
+    color: #316dc3;
+    margin: 17px 0 0 25px;
+    font-weight: normal;   
+    float: left;
+}
+.tharbox{
+    background-color: #f7f8fa;
+    height: 55px;
+    width: 350px;
+    margin: -55px 0 0 435px;
+}
+.imgthar{
+    margin: 12px;
+    float: left;
+}
+.headthar{
+    color: #316dc3;
+    margin: 17px 0 0 25px;
+    font-weight: normal;   
+    float: left;
+}
+
+.sidehead{
+    color: #316dc3;
+}
+.sidebox{
+    width: 380px;
+    height: 300px;
+    text-align: justify;
+    margin: -215px 0px 0 860px;
+    line-height: 1.5em;
+}
+.sidelinenews{
+    width: 300px;
+    border-top:1px solid gray;
+    padding-top: 20px;
+}
+
+.imagegalh1{
+    color: #316dc3;
+}
+.gallery{
+    color:#427900;
+}
+/* IMAGEGALLERY WALA SECTION END */
+
+.footerbgcol{
+    background-color: #25272e;
+    height: 350px;
+}
+
+.address{
+    color: lightgray;
+    position: relative;
+    left: 120px;
+    top: 80px;
+    float: left;
+}
+.teleimg1{
+    position: relative;
+    top: 120px;
+    left: -195px;
+}
+.phoneno1{
+    position: relative;
+   top: 100px;
+   left: 145px;
+   color: lightgray;
+}
+.teleimg2{
+    position: relative;
+    top: 112px;
+    left: 123px;
+}
+.phoneno2{
+    position: relative;
+    top: 92px;
+    left: 145px;
+    color: lightgray;
+}
+.teleimg3{
+    position: relative;
+    top: 101px;
+    left: 123px;
+}
+.phoneno3{
+    position: relative;
+    top: 81px;
+    left: 145px;
+    color: lightgray;
+}
+.teleimg4{
+    position: relative;
+    top: 89px ;
+    left: 123px;
+}
+.phoneno4{
+    position: relative;
+    top: 70px;
+    left: 145px;
+    color: lightgray;
+}
+.mailimg{
+    position: relative;
+    top: 77px;
+    left: 123px;
+}
+.mail{
+    position: relative;
+    top: 57px;
+    left: 147px;
+    color: lightgray;
+}
+.globeimg{
+    position: relative;
+    top: -67px;
+    left: 300px;
+}
+.globe{
+    color: lightgray;
+    position: relative;
+    top: -87px;
+    left: 320px;
+}
+.usefullinks{
+    color: white;
+    float: left;
+    position: relative;
+    top: -190px;
+    left: 500px;
+    padding-bottom: 10px;
+    width: 400px;
+    border-bottom: 1px solid #444444;
+}
+.connectwithus{
+    color: white;
+    float: left;
+    position: relative;
+    top: -190px;
+    left: 530px;
+}
+.CWULINKS{
+    margin-left: 12px;
+    position: relative;
+    right: 10px;
+}
+.copyrightcontainer{
+    background-color: #316dc3;
+    height: 45px;
+}
+.copyright{
+    color:white;
+    font-size: 14px;
+    margin-left: 120px;
+   padding-top: 14px;
+}
+
+@media (max-width: 1100px){
+    label.logo{
+      padding-left: 25px;
+      position: absolute;
+      top: 0px;
+      width: 20px;
+    }
+    .divcolor{
+        display: none;
+    }
+    a.active,a.hover{
+    font-size: 16px;
+    padding: 7px 7px 7px 7px ;
+    }
+    /* menu end */
+
+    .slideline{
+        font-size: 12px;
+    }
+    .parabgcolor{
+        height: 600px;
+    }
+    .longpara{
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+    .adoptionbox{
+        height: 860px;
+        padding-bottom: 110px;
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes1-3{
+    flex-wrap: wrap;
+    }
+        .boxes4-6{
+        flex-wrap: wrap;
+        }
+        .boxbgcolor{
+            height: 1050px;
+        }
+        .imagesfoodwagera{
+            flex-wrap: wrap;
+        }
+        .IMGGALDIV{
+            height: 1100px;
+        }
+        .connectwithus{
+            position: relative;
+            top: -190px;
+            left: 480px;
+        }
+        .usefullinks{
+            position: relative;
+            top: -190px;
+            left: 460px;
+            padding-bottom: 10px;
+            width: 270px;
+        }
+        .sidebox{
+            width: 380px;
+            height: 500px;              
+            text-align: justify;
+            position: relative;
+            left: -805px;
+            top: 300px;
+            margin: -215px 0px 0 860px;
+            line-height: 1.5em;
+        }
+        .sidelinenews{
+            width: 700px;
+            border-top:1px solid gray;
+            padding-top: 20px;
+        }
+        
+}
+
+
+  @media (max-width: 920px){
+      .checkbtn{
+          display: block;
+      }
+      .ul{
+          position: fixed;
+          width: 100%;
+          height: 100vh;
+          background: #2c3e50;
+          top: 43px;
+         left: -100%;
+          text-align: center;
+          transition: all .5s;
+      }
+   .list{
+          display: block;
+          margin: 30px 0;
+          line-height: 30px;
+      }
+      a.active,a.hover{
+          font-size: 20px;
+          color: white;
+      }
+      a:hover,a.active{
+        background: none;
+        color: #0082e6;
+      }
+      a.hover:hover{
+            background: none;
+            color: #0082e6;
+      }
+      #check:checked ~ ul{
+        left: 0;
+    }
+    .slideline{
+      font-size: 11px;
+  }
+  .parabgcolor{
+      height: 780px;
+  }
+  .boxhead{
+      font-size: 37px;
+  }
+  .boxbgcolor{
+    height: 1450px;
+}
+.IMGGALDIV{
+    height: 1400px;
+}
+.connectwithus{
+    position: relative;
+    top: 115px;
+    left: -140px;
+}
+.usefullinks{
+    position: relative;
+    top: 65px;
+    left: 130px;
+    padding-bottom: 10px;
+    width: 270px;
+}
+.footerbgcol{
+    height: 435px;
+}
+.globeimg{
+    position: relative;
+    top: 67px;
+    left: 123px;
+}
+.globe{
+    color: lightgray;
+    position: relative;
+    top: 47px;
+    left: 147px;
+}
+.IMGGALDIV{
+    background-color: white ;
+    height: 1500px;
+}
+
+.housingbox{
+    height: 55px;
+    width: 350px;
+    position: relative;
+    top: 75px;
+    left: -400px;
+    margin:30px 0px 0 52px ;
+}
+.itbox{
+    height: 55px;
+    width: 350px;
+    position: relative;
+    top: 150px;
+}
+
+.headit{
+    color: #316dc3;
+    margin: 17px 0 0 25px;
+
+    font-weight: normal;   
+    float: left;
+}
+.tharbox{
+    background-color: #f7f8fa;
+    height: 55px;
+    width: 350px;
+    margin: 20px 0 0 52px;
+}
+.imgthar{
+    margin: 12px;
+    float: left;
+}
+.headthar{
+    color: #316dc3;
+    margin: 17px 0 0 25px;
+    font-weight: normal;   
+    float: left;
+}
+
+.sidehead{
+    color: #316dc3;
+    margin-top: 30px;
+}
+.sidebox{
+    width: 380px;
+    height: 550px;
+    text-align: justify;
+    margin: -215px 0px 0 860px;
+    line-height: 1.5em;
+}
+.sidelinenews{
+    width: 300px;
+    border-top:1px solid gray;
+    padding-top: 20px;
+}
+    }
